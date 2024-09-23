@@ -62,18 +62,22 @@
                             <form id="wf-form-Sign-up" name="wf-form-Sign-up" data-name="Contact Us" method="post" 
                             action="https://script.google.com/macros/s/AKfycbyoN6dtWOw9RBlFbPSBxCBoWCnLh8ff4Apq3r3aJKe8FaTELKL78jV5vBq89IGGGBx3Kw/exec"
                             class="form" data-wf-page-id="647e61defa63c5689d7aed28" data-wf-element-id="1e4857dc-6e9f-b392-2236-96c15a7560e8">
-                                <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Name" id="name"/>
+                                <input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Name" id="name"/>
                                 <input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" id="Email" required=""/>
                                 <input type="tel" class="text-field w-input" maxlength="256" name="Subject" data-name="Subject" placeholder="What problem are you interested in solving?" id="Phone"/>
-                                <input type="text" class="text-field w-input" maxlength="512" name="Info" data-name="Info" placeholder="" id="Any additional information you'd like us to know" required=""/>
+                                <input type="text" class="text-field w-input" maxlength="512" name="Message" data-name="Messave" placeholder="Any additional information you'd like us to know" id="Message" required=""/>
                                 <div class="text-form">By clicking below, I agree to Privacy policy.</div>
                                 <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"/>
                             </form>
                             <div class="success-message w-form-done">
-                                <div class="success-text">Thank you! You have successfully registered!</div>
+                                <div class="success-wrapper">
+                                <   div class="success-text">Thank you! You have successfully registered!</div>
+                                </div>
                             </div>
                             <div class="error-message w-form-fail">
-                                <div class="error-text">Oops! Something went wrong while submitting the form.</div>
+                                <div class="error-wrapper">
+                                    <div class="error-text">Oops! Something went wrong while submitting the form.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
